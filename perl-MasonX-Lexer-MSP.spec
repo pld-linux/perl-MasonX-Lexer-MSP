@@ -8,13 +8,13 @@
 Summary:	MasonX::Lexer::MSP - give Mason a more ASP/JSP compatible syntax
 Summary(pl):	MasonX::Lexer::MSP - nadanie Masonowi sk³adni bardziej kompatybilnej z ASP/JSP
 Name:		perl-MasonX-Lexer-MSP
-Version:	0.10
+Version:	0.11
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	22495b4a47997544bb249c22fcfa4631
+# Source0-md5:	5d2109e620addb5c53e78c6a3a5a07b8
 BuildRequires:	perl-devel >= 1:5.8
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -35,7 +35,7 @@ u¿ywanej przez ASP czy JSP. Zmiany te s± niestety niekompatybilne z
 domy¶ln± sk³adni± Masona.
 
 %prep
-%setup -q -n %{pdir}-%{pnam}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 %{__perl} Makefile.PL \
