@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	MasonX
-%define	pnam	Lexer-MSP
+%define		pdir	MasonX
+%define		pnam	Lexer-MSP
 Summary:	MasonX::Lexer::MSP - give Mason a more ASP/JSP compatible syntax
 Summary(pl):	MasonX::Lexer::MSP - nadanie Masonowi sk³adni bardziej kompatybilnej z ASP/JSP
 Name:		perl-MasonX-Lexer-MSP
