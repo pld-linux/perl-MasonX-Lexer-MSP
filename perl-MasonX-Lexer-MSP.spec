@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without  tests           # do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	MasonX
@@ -26,7 +26,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This lexer makes changes to the Mason syntax to make it closer to the
-syntax used by ASP and JSP.  These changes are incompatible with the
+syntax used by ASP and JSP. These changes are incompatible with the
 default Mason syntax, unfortunately.
 
 %description -l pl
