@@ -6,7 +6,7 @@
 %define		pdir	MasonX
 %define		pnam	Lexer-MSP
 Summary:	MasonX::Lexer::MSP - give Mason a more ASP/JSP compatible syntax
-Summary(pl):	MasonX::Lexer::MSP - nadanie Masonowi sk³adni bardziej kompatybilnej z ASP/JSP
+Summary(pl.UTF-8):   MasonX::Lexer::MSP - nadanie Masonowi skÅ‚adni bardziej kompatybilnej z ASP/JSP
 Name:		perl-MasonX-Lexer-MSP
 Version:	0.11
 Release:	1
@@ -29,10 +29,10 @@ This lexer makes changes to the Mason syntax to make it closer to the
 syntax used by ASP and JSP. These changes are incompatible with the
 default Mason syntax, unfortunately.
 
-%description -l pl
-Ten lekser modyfikuje sk³adniê Masona, aby uczyniæ j± bli¿sz± sk³adni
-u¿ywanej przez ASP czy JSP. Zmiany te s± niestety niekompatybilne z
-domy¶ln± sk³adni± Masona.
+%description -l pl.UTF-8
+Ten lekser modyfikuje skÅ‚adniÄ™ Masona, aby uczyniÄ‡ jÄ… bliÅ¼szÄ… skÅ‚adni
+uÅ¼ywanej przez ASP czy JSP. Zmiany te sÄ… niestety niekompatybilne z
+domyÅ›lnÄ… skÅ‚adniÄ… Masona.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
