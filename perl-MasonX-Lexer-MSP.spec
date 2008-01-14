@@ -9,7 +9,7 @@ Summary:	MasonX::Lexer::MSP - give Mason a more ASP/JSP compatible syntax
 Summary(pl.UTF-8):	MasonX::Lexer::MSP - nadanie Masonowi składni bardziej kompatybilnej z ASP/JSP
 Name:		perl-MasonX-Lexer-MSP
 Version:	0.11
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -56,5 +56,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/MasonX/*/*.pm
+%dir %{perl_vendorlib}/MasonX/Lexer
+%{perl_vendorlib}/MasonX/Lexer/MSP.pm
 %{_mandir}/man3/*
